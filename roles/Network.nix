@@ -3,7 +3,7 @@
 {
 
   # Network configuration for a static IP
-  networking.interfaces.eth0 = {
+  networking.interfaces.enp0s3 = {
     ipv4.addresses = [
       {
         address = "192.168.1.100";  # Replace with your desired IP address
