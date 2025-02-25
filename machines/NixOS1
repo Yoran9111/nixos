@@ -7,7 +7,7 @@
 
 {
   imports = [
-    ../roles/workstation.nix
+    #../roles/workstation.nix
     ../roles/Nginx.nix
     ../roles/Network.nix
     ../roles/ssh.nix
