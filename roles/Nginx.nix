@@ -29,9 +29,4 @@
 
   services.openssh.enable = true;
   networking.firewall.allowedTCPPorts = [ 22 80 443 ];
-
-  nix = {
-    package = pkgs.nixVersions.stable;
-    extraOptions = "experimental-features = nix-command flakes";
-  };
 }
