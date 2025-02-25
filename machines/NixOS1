@@ -7,13 +7,8 @@
 
 {
   imports = [
-    #../roles/workstation.nix
-    ../roles/Nginx.nix
-    ../roles/Network.nix
-    ../roles/ssh.nix
-    #../roles/
-    #../roles/
-    #../roles/
+    ../roles/Nginx.nix # En SSH 
+    ../roles/Network.nix # Static 
   ];
 
   system.stateVersion = "24.11";
