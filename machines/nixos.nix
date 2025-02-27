@@ -10,6 +10,7 @@
     ../roles/Nginx.nix # En SSH 
     ../roles/Network.nix # Static 
     ../roles/jip.nix # users
+    ../roles/Apps.nix # apps
   ];
 
   system.stateVersion = "24.11";
